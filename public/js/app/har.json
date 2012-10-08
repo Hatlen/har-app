@@ -1,0 +1,753 @@
+{
+    "log": {
+        "version": "1.2",
+        "creator": {
+            "name": "PhantomJS",
+            "version": "1.6.1"
+        },
+        "pages": [
+            {
+                "startedDateTime": "2012-10-03T19:41:16.877Z",
+                "id": "http://google.se",
+                "title": "Google",
+                "pageTimings": {
+                    "onLoad": 344
+                }
+            }
+        ],
+        "entries": [
+            {
+                "startedDateTime": "2012-10-03T19:41:16.867Z",
+                "time": 111,
+                "request": {
+                    "method": "GET",
+                    "url": "http://google.se/",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "User-Agent",
+                            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.6.1 Safari/534.34"
+                        },
+                        {
+                            "name": "Accept",
+                            "value": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+                        }
+                    ],
+                    "queryString": [],
+                    "headersSize": -1,
+                    "bodySize": -1
+                },
+                "response": {
+                    "status": 301,
+                    "statusText": "Moved Permanently",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "Location",
+                            "value": "http://www.google.se/"
+                        },
+                        {
+                            "name": "Content-Type",
+                            "value": "text/html; charset=UTF-8"
+                        },
+                        {
+                            "name": "Date",
+                            "value": "Wed, 03 Oct 2012 19:41:16 GMT"
+                        },
+                        {
+                            "name": "Expires",
+                            "value": "Fri, 02 Nov 2012 19:41:16 GMT"
+                        },
+                        {
+                            "name": "Cache-Control",
+                            "value": "public, max-age=2592000"
+                        },
+                        {
+                            "name": "Server",
+                            "value": "gws"
+                        },
+                        {
+                            "name": "Content-Length",
+                            "value": "218"
+                        },
+                        {
+                            "name": "X-XSS-Protection",
+                            "value": "1; mode=block"
+                        },
+                        {
+                            "name": "X-Frame-Options",
+                            "value": "SAMEORIGIN"
+                        }
+                    ],
+                    "redirectURL": "",
+                    "headersSize": -1,
+                    "bodySize": 218,
+                    "content": {
+                        "size": 218,
+                        "mimeType": "text/html; charset=UTF-8"
+                    }
+                },
+                "cache": {},
+                "timings": {
+                    "blocked": 0,
+                    "dns": -1,
+                    "connect": -1,
+                    "send": 0,
+                    "wait": 108,
+                    "receive": 3,
+                    "ssl": -1
+                },
+                "pageref": "http://google.se"
+            },
+            {
+                "startedDateTime": "2012-10-03T19:41:16.977Z",
+                "time": 109,
+                "request": {
+                    "method": "GET",
+                    "url": "http://www.google.se/",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "User-Agent",
+                            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.6.1 Safari/534.34"
+                        },
+                        {
+                            "name": "Accept",
+                            "value": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+                        }
+                    ],
+                    "queryString": [],
+                    "headersSize": -1,
+                    "bodySize": -1
+                },
+                "response": {
+                    "status": 200,
+                    "statusText": "OK",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "Date",
+                            "value": "Wed, 03 Oct 2012 19:41:17 GMT"
+                        },
+                        {
+                            "name": "Expires",
+                            "value": "-1"
+                        },
+                        {
+                            "name": "Cache-Control",
+                            "value": "private, max-age=0"
+                        },
+                        {
+                            "name": "Content-Type",
+                            "value": "text/html; charset=UTF-8"
+                        },
+                        {
+                            "name": "Set-Cookie",
+                            "value": "PREF=ID=7899e5da03db3669:FF=0:TM=1349293277:LM=1349293277:S=eqeF8Hdoanlkhg0V; expires=Fri, 03-Oct-2014 19:41:17 GMT; path=/; domain=.google.se\nNID=64=E-rFSddDa5veNlbeYky186_xNhBB_oTkVzzDJwpmfvs4lbDFpjXiz3VLuwk9G3-375WU2KJx09oUMdvChuevy2mgpqvRDJMOID_O2nX6CwPmvQWn30tEsKHLhqCgDn86; expires=Thu, 04-Apr-2013 19:41:17 GMT; path=/; domain=.google.se; HttpOnly"
+                        },
+                        {
+                            "name": "P3P",
+                            "value": "CP=\"This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657 for more info.\""
+                        },
+                        {
+                            "name": "Content-Encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "Server",
+                            "value": "gws"
+                        },
+                        {
+                            "name": "X-XSS-Protection",
+                            "value": "1; mode=block"
+                        },
+                        {
+                            "name": "X-Frame-Options",
+                            "value": "SAMEORIGIN"
+                        }
+                    ],
+                    "redirectURL": "",
+                    "headersSize": -1,
+                    "bodySize": 52606,
+                    "content": {
+                        "size": 52606,
+                        "mimeType": "text/html; charset=UTF-8"
+                    }
+                },
+                "cache": {},
+                "timings": {
+                    "blocked": 0,
+                    "dns": -1,
+                    "connect": -1,
+                    "send": 0,
+                    "wait": 81,
+                    "receive": 28,
+                    "ssl": -1
+                },
+                "pageref": "http://google.se"
+            },
+            {
+                "startedDateTime": "2012-10-03T19:41:17.079Z",
+                "time": 45,
+                "request": {
+                    "method": "GET",
+                    "url": "http://ssl.gstatic.com/gb/images/b_8d5afc09.png",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "User-Agent",
+                            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.6.1 Safari/534.34"
+                        },
+                        {
+                            "name": "Referer",
+                            "value": "http://www.google.se/"
+                        },
+                        {
+                            "name": "Accept",
+                            "value": "*/*"
+                        }
+                    ],
+                    "queryString": [],
+                    "headersSize": -1,
+                    "bodySize": -1
+                },
+                "response": {
+                    "status": 200,
+                    "statusText": "OK",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "Content-Type",
+                            "value": "image/png"
+                        },
+                        {
+                            "name": "Last-Modified",
+                            "value": "Mon, 02 Apr 2012 00:13:23 GMT"
+                        },
+                        {
+                            "name": "Date",
+                            "value": "Wed, 03 Oct 2012 08:53:13 GMT"
+                        },
+                        {
+                            "name": "Expires",
+                            "value": "Thu, 03 Oct 2013 08:53:13 GMT"
+                        },
+                        {
+                            "name": "X-Content-Type-Options",
+                            "value": "nosniff"
+                        },
+                        {
+                            "name": "Server",
+                            "value": "sffe"
+                        },
+                        {
+                            "name": "Content-Length",
+                            "value": "9760"
+                        },
+                        {
+                            "name": "X-XSS-Protection",
+                            "value": "1; mode=block"
+                        },
+                        {
+                            "name": "Cache-Control",
+                            "value": "public, max-age=31536000"
+                        },
+                        {
+                            "name": "Age",
+                            "value": "38884"
+                        }
+                    ],
+                    "redirectURL": "",
+                    "headersSize": -1,
+                    "bodySize": 1096,
+                    "content": {
+                        "size": 1096,
+                        "mimeType": "image/png"
+                    }
+                },
+                "cache": {},
+                "timings": {
+                    "blocked": 0,
+                    "dns": -1,
+                    "connect": -1,
+                    "send": 0,
+                    "wait": 26,
+                    "receive": 19,
+                    "ssl": -1
+                },
+                "pageref": "http://google.se"
+            },
+            {
+                "startedDateTime": "2012-10-03T19:41:17.087Z",
+                "time": 18,
+                "request": {
+                    "method": "GET",
+                    "url": "http://www.google.se/images/icons/product/chrome-48.png",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "User-Agent",
+                            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.6.1 Safari/534.34"
+                        },
+                        {
+                            "name": "Referer",
+                            "value": "http://www.google.se/"
+                        },
+                        {
+                            "name": "Accept",
+                            "value": "*/*"
+                        }
+                    ],
+                    "queryString": [],
+                    "headersSize": -1,
+                    "bodySize": -1
+                },
+                "response": {
+                    "status": 200,
+                    "statusText": "OK",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "Content-Type",
+                            "value": "image/png"
+                        },
+                        {
+                            "name": "Last-Modified",
+                            "value": "Mon, 02 Apr 2012 02:13:37 GMT"
+                        },
+                        {
+                            "name": "Date",
+                            "value": "Wed, 03 Oct 2012 15:45:07 GMT"
+                        },
+                        {
+                            "name": "Expires",
+                            "value": "Thu, 11 Oct 2012 15:45:07 GMT"
+                        },
+                        {
+                            "name": "X-Content-Type-Options",
+                            "value": "nosniff"
+                        },
+                        {
+                            "name": "Server",
+                            "value": "sffe"
+                        },
+                        {
+                            "name": "Content-Length",
+                            "value": "1834"
+                        },
+                        {
+                            "name": "X-XSS-Protection",
+                            "value": "1; mode=block"
+                        },
+                        {
+                            "name": "Cache-Control",
+                            "value": "public, max-age=691200"
+                        },
+                        {
+                            "name": "Age",
+                            "value": "14170"
+                        }
+                    ],
+                    "redirectURL": "",
+                    "headersSize": -1,
+                    "bodySize": 1098,
+                    "content": {
+                        "size": 1098,
+                        "mimeType": "image/png"
+                    }
+                },
+                "cache": {},
+                "timings": {
+                    "blocked": 0,
+                    "dns": -1,
+                    "connect": -1,
+                    "send": 0,
+                    "wait": 17,
+                    "receive": 1,
+                    "ssl": -1
+                },
+                "pageref": "http://google.se"
+            },
+            {
+                "startedDateTime": "2012-10-03T19:41:17.088Z",
+                "time": 65,
+                "request": {
+                    "method": "GET",
+                    "url": "http://www.google.se/images/srpr/logo1w.png",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "User-Agent",
+                            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.6.1 Safari/534.34"
+                        },
+                        {
+                            "name": "Referer",
+                            "value": "http://www.google.se/"
+                        },
+                        {
+                            "name": "Accept",
+                            "value": "*/*"
+                        }
+                    ],
+                    "queryString": [],
+                    "headersSize": -1,
+                    "bodySize": -1
+                },
+                "response": {
+                    "status": 200,
+                    "statusText": "OK",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "Content-Type",
+                            "value": "image/png"
+                        },
+                        {
+                            "name": "Last-Modified",
+                            "value": "Mon, 02 Apr 2012 02:13:37 GMT"
+                        },
+                        {
+                            "name": "Date",
+                            "value": "Wed, 03 Oct 2012 19:41:17 GMT"
+                        },
+                        {
+                            "name": "Expires",
+                            "value": "Wed, 03 Oct 2012 19:41:17 GMT"
+                        },
+                        {
+                            "name": "Cache-Control",
+                            "value": "private, max-age=31536000"
+                        },
+                        {
+                            "name": "X-Content-Type-Options",
+                            "value": "nosniff"
+                        },
+                        {
+                            "name": "Server",
+                            "value": "sffe"
+                        },
+                        {
+                            "name": "Content-Length",
+                            "value": "7330"
+                        },
+                        {
+                            "name": "X-XSS-Protection",
+                            "value": "1; mode=block"
+                        }
+                    ],
+                    "redirectURL": "",
+                    "headersSize": -1,
+                    "bodySize": 1107,
+                    "content": {
+                        "size": 1107,
+                        "mimeType": "image/png"
+                    }
+                },
+                "cache": {},
+                "timings": {
+                    "blocked": 0,
+                    "dns": -1,
+                    "connect": -1,
+                    "send": 0,
+                    "wait": 62,
+                    "receive": 3,
+                    "ssl": -1
+                },
+                "pageref": "http://google.se"
+            },
+            {
+                "startedDateTime": "2012-10-03T19:41:17.088Z",
+                "time": 37,
+                "request": {
+                    "method": "GET",
+                    "url": "http://www.google.se/textinputassistant/tia.png",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "User-Agent",
+                            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.6.1 Safari/534.34"
+                        },
+                        {
+                            "name": "Referer",
+                            "value": "http://www.google.se/"
+                        },
+                        {
+                            "name": "Accept",
+                            "value": "*/*"
+                        }
+                    ],
+                    "queryString": [],
+                    "headersSize": -1,
+                    "bodySize": -1
+                },
+                "response": {
+                    "status": 200,
+                    "statusText": "OK",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "Content-Type",
+                            "value": "image/png"
+                        },
+                        {
+                            "name": "Last-Modified",
+                            "value": "Mon, 02 Apr 2012 02:13:37 GMT"
+                        },
+                        {
+                            "name": "Date",
+                            "value": "Wed, 03 Oct 2012 15:45:25 GMT"
+                        },
+                        {
+                            "name": "Expires",
+                            "value": "Thu, 11 Oct 2012 15:45:25 GMT"
+                        },
+                        {
+                            "name": "X-Content-Type-Options",
+                            "value": "nosniff"
+                        },
+                        {
+                            "name": "Server",
+                            "value": "sffe"
+                        },
+                        {
+                            "name": "Content-Length",
+                            "value": "387"
+                        },
+                        {
+                            "name": "X-XSS-Protection",
+                            "value": "1; mode=block"
+                        },
+                        {
+                            "name": "Cache-Control",
+                            "value": "public, max-age=691200"
+                        },
+                        {
+                            "name": "Age",
+                            "value": "14152"
+                        }
+                    ],
+                    "redirectURL": "",
+                    "headersSize": -1,
+                    "bodySize": 387,
+                    "content": {
+                        "size": 387,
+                        "mimeType": "image/png"
+                    }
+                },
+                "cache": {},
+                "timings": {
+                    "blocked": 0,
+                    "dns": -1,
+                    "connect": -1,
+                    "send": 0,
+                    "wait": 36,
+                    "receive": 1,
+                    "ssl": -1
+                },
+                "pageref": "http://google.se"
+            },
+            {
+                "startedDateTime": "2012-10-03T19:41:17.089Z",
+                "time": 113,
+                "request": {
+                    "method": "GET",
+                    "url": "http://www.google.se/images/srpr/nav_logo80.png",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "User-Agent",
+                            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.6.1 Safari/534.34"
+                        },
+                        {
+                            "name": "Referer",
+                            "value": "http://www.google.se/"
+                        },
+                        {
+                            "name": "Accept",
+                            "value": "*/*"
+                        }
+                    ],
+                    "queryString": [],
+                    "headersSize": -1,
+                    "bodySize": -1
+                },
+                "response": {
+                    "status": 200,
+                    "statusText": "OK",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "Content-Type",
+                            "value": "image/png"
+                        },
+                        {
+                            "name": "Last-Modified",
+                            "value": "Mon, 02 Apr 2012 02:13:37 GMT"
+                        },
+                        {
+                            "name": "Date",
+                            "value": "Wed, 03 Oct 2012 15:45:33 GMT"
+                        },
+                        {
+                            "name": "Expires",
+                            "value": "Thu, 11 Oct 2012 15:45:33 GMT"
+                        },
+                        {
+                            "name": "X-Content-Type-Options",
+                            "value": "nosniff"
+                        },
+                        {
+                            "name": "Server",
+                            "value": "sffe"
+                        },
+                        {
+                            "name": "Content-Length",
+                            "value": "35636"
+                        },
+                        {
+                            "name": "X-XSS-Protection",
+                            "value": "1; mode=block"
+                        },
+                        {
+                            "name": "Cache-Control",
+                            "value": "public, max-age=691200"
+                        },
+                        {
+                            "name": "Age",
+                            "value": "14144"
+                        }
+                    ],
+                    "redirectURL": "",
+                    "headersSize": -1,
+                    "bodySize": 1097,
+                    "content": {
+                        "size": 1097,
+                        "mimeType": "image/png"
+                    }
+                },
+                "cache": {},
+                "timings": {
+                    "blocked": 0,
+                    "dns": -1,
+                    "connect": -1,
+                    "send": 0,
+                    "wait": 47,
+                    "receive": 66,
+                    "ssl": -1
+                },
+                "pageref": "http://google.se"
+            },
+            {
+                "startedDateTime": "2012-10-03T19:41:17.090Z",
+                "time": 131,
+                "request": {
+                    "method": "GET",
+                    "url": "http://www.google.se/xjs/_/js/hp/hp,sb_he,pcc/rt=j/ver=muuEbh3IrY4.en_US./d=1/sv=1/rs=AItRSTOqf0ToLRxfDTpLHiGSJAlL0BGI5Q",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "User-Agent",
+                            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.6.1 Safari/534.34"
+                        },
+                        {
+                            "name": "Accept",
+                            "value": "*/*"
+                        },
+                        {
+                            "name": "Referer",
+                            "value": "http://www.google.se/"
+                        }
+                    ],
+                    "queryString": [],
+                    "headersSize": -1,
+                    "bodySize": -1
+                },
+                "response": {
+                    "status": 200,
+                    "statusText": "OK",
+                    "httpVersion": "HTTP/1.1",
+                    "cookies": [],
+                    "headers": [
+                        {
+                            "name": "Vary",
+                            "value": "Accept-Encoding"
+                        },
+                        {
+                            "name": "Content-Encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "Content-Type",
+                            "value": "text/javascript; charset=UTF-8"
+                        },
+                        {
+                            "name": "Last-Modified",
+                            "value": "Fri, 28 Sep 2012 08:09:54 GMT"
+                        },
+                        {
+                            "name": "Date",
+                            "value": "Wed, 03 Oct 2012 15:45:25 GMT"
+                        },
+                        {
+                            "name": "Expires",
+                            "value": "Thu, 03 Oct 2013 15:45:25 GMT"
+                        },
+                        {
+                            "name": "X-Content-Type-Options",
+                            "value": "nosniff"
+                        },
+                        {
+                            "name": "Server",
+                            "value": "sffe"
+                        },
+                        {
+                            "name": "X-XSS-Protection",
+                            "value": "1; mode=block"
+                        },
+                        {
+                            "name": "Cache-Control",
+                            "value": "public, max-age=31536000"
+                        },
+                        {
+                            "name": "Age",
+                            "value": "14152"
+                        }
+                    ],
+                    "redirectURL": "",
+                    "headersSize": -1,
+                    "bodySize": 46721,
+                    "content": {
+                        "size": 46721,
+                        "mimeType": "text/javascript; charset=UTF-8"
+                    }
+                },
+                "cache": {},
+                "timings": {
+                    "blocked": 0,
+                    "dns": -1,
+                    "connect": -1,
+                    "send": 0,
+                    "wait": 87,
+                    "receive": 44,
+                    "ssl": -1
+                },
+                "pageref": "http://google.se"
+            }
+        ]
+    }
+}
