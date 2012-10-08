@@ -1,6 +1,6 @@
-<h1>This an app i made to experiment with some differend frameworks an techniques</h1>
+<h1>This an app i made to experiment with some different frameworks and techniques</h1>
 
-Some of the new things to me in this project:
+Some of the things I used:
 
 <ul>
 <li>
