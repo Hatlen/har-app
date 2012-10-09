@@ -1,4 +1,4 @@
-<h1>This an app i made to experiment with some different frameworks and techniques</h1>
+<h1>This is an app i made to experiment with some different frameworks and techniques</h1>
 
 Some of the things I used:
 

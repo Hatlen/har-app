@@ -102,7 +102,7 @@ else
 
     page.open page.address, (status) ->
         if status isnt 'success'
-            console.log 'FAIL to load the address'
+            console.log 'FAIL'
         else
             page.endTime = new Date()
             page.title = page.evaluate ->

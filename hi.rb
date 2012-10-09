@@ -60,6 +60,6 @@ get '/*' do
 			end	
 		end
 	else
-		'The file was not found. Try your psychic powers and guess another url.'
+		'The file was not found. Try your psychic powers and guess another url, or go to the <a href="/" title="Go home">homepage.</a>'
 	end
 end
